@@ -1,0 +1,10 @@
+{
+    "name": "emcodepro/php-mvc",
+    "authors": [
+        {
+            "name": "Elmar",
+            "email": "oydaatofik@gmail.com"
+        }
+    ],
+    "require": {}
+}
