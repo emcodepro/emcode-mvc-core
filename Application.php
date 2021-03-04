@@ -12,6 +12,11 @@ use emcode\phpmvc\db\Database;
 
 class Application
 {
+    const BEFORE_REQUEST = 'beforeRequest';
+    const AFTER_REQUEST = 'afterRequest';
+
+    public $eventListeners = [];
+
     public $router;
     public $request;
     public $response;
@@ -48,6 +53,7 @@ class Application
 
     public function run()
     {
+        $this->callEventListener(self::BEFORE_REQUEST);
         try{
             echo $this->router->resolve();
         }catch (\Exception $e)
@@ -57,6 +63,7 @@ class Application
                 'exception' => $e
             ]);
         }
+        $this->callEventListener(self::AFTER_REQUEST);
     }
 
     /**
@@ -95,5 +102,18 @@ class Application
     public static function isGuest()
     {
         return !self::$app->user;
+    }
+
+    public function on($eventListener, $callback)
+    {
+        $this->eventListeners[$eventListener][] = $callback;
+    }
+
+    public function callEventListener($eventListener)
+    {
+        $callbacks = $this->eventListeners[$eventListener] ?? [];
+        foreach ($callbacks as $callback){
+            echo call_user_func($callback);
+        }
     }
 }
