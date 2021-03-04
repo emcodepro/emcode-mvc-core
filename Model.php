@@ -6,7 +6,7 @@
  * Time: 22:22
  */
 
-namespace app\core;
+namespace emcode\phpmvc;
 
 
 abstract class Model

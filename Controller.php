@@ -6,9 +6,9 @@
  * Time: 13:21
  */
 
-namespace app\core;
+namespace emcode\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use emcode\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {

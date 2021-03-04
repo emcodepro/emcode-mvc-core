@@ -6,11 +6,11 @@
  * Time: 20:54
  */
 
-namespace app\core\middlewares;
+namespace emcode\phpmvc\middlewares;
 
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use emcode\phpmvc\Application;
+use emcode\phpmvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

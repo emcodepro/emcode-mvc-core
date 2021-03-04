@@ -6,9 +6,9 @@
  * Time: 23:08
  */
 
-namespace app\core;
+namespace emcode\phpmvc;
 
-use app\core\db\Database;
+use emcode\phpmvc\db\Database;
 
 class Application
 {

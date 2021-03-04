@@ -6,7 +6,7 @@
  * Time: 12:41
  */
 
-namespace app\core\form;
+namespace emcode\phpmvc\form;
 
 
 class InputField extends BaseInput

@@ -6,7 +6,7 @@
  * Time: 10:52
  */
 
-namespace app\core\form;
+namespace emcode\phpmvc\form;
 
 
 abstract class BaseInput

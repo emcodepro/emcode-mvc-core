@@ -6,10 +6,10 @@
  * Time: 23:08
  */
 
-namespace app\core;
+namespace emcode\phpmvc;
 
 
-use app\core\exception\NotFoundException;
+use emcode\phpmvc\exception\NotFoundException;
 
 class Router
 {

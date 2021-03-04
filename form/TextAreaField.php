@@ -6,7 +6,7 @@
  * Time: 11:02
  */
 
-namespace app\core\form;
+namespace emcode\phpmvc\form;
 
 
 class TextAreaField extends BaseInput

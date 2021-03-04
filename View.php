@@ -6,7 +6,7 @@
  * Time: 10:06
  */
 
-namespace app\core;
+namespace emcode\phpmvc;
 
 
 class View

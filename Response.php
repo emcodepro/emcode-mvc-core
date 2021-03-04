@@ -5,7 +5,7 @@
  * Date: 28-Feb-21
  * Time: 12:34
  */
-namespace app\core;
+namespace emcode\phpmvc;
 
 class Response
 {

@@ -6,7 +6,7 @@
  * Time: 21:03
  */
 
-namespace app\core\exception;
+namespace emcode\phpmvc\exception;
 
 
 class ForbiddenException extends \Exception

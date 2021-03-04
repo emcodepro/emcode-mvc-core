@@ -6,7 +6,7 @@
  * Time: 23:27
  */
 
-namespace app\core;
+namespace emcode\phpmvc;
 
 
 class Request

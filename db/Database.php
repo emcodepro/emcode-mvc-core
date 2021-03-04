@@ -7,9 +7,9 @@
  */
 
 /** @var $pdo \PDO */
-namespace app\core\db;
+namespace emcode\phpmvc\db;
 
-use app\core\Application;
+use emcode\phpmvc\Application;
 use PDO;
 
 class Database

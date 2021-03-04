@@ -6,11 +6,11 @@
  * Time: 14:19
  */
 
-namespace app\core\db;
+namespace emcode\phpmvc\db;
 
 
-use app\core\Application;
-use app\core\Model;
+use emcode\phpmvc\Application;
+use emcode\phpmvc\Model;
 
 abstract class DbModel extends Model
 {
